@@ -14,7 +14,6 @@ c.fillRect(0, 0, canvas.width, canvas.height);
 
 const gravity = 0.2;
 
-//class형 함수(객체)
 class Sprite {
   constructor({ position, velocity }) {
     this.position = position;
@@ -73,3 +72,5 @@ function animate() {
 }
 
 animate();
+
+// 28분
